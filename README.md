@@ -11,9 +11,11 @@ This App is like a shopping memo for user to remember what they need to buy befo
 
 In this asssignment, I developed an iPhone CoreData App for shopping. This application have two entities, one is ItemEntity and the other is HistoryEntity. ItemEntity has four attributes title(String), imageName(String), price(Double) and quantity(Int). HistoryEntity has one attribute which is perchased(Boolean).
 
+![image](https://github.com/LucyMiaoO/ShoppingList/blob/master/img/01.PNG)
+
 In order to impletment the history functionality, I created two Arrays based on ItemEntity and the purchased attribute is a boolean value for each item to choose which array it should be in. Then, the ItemsView is showing the items which are new and the HistoryView is showing the items which are purchased. In addition, if user made a mistake, he can click the item in the History List and the specific item will be back to the Item List.
 
-![image](https://github.com/LucyMiaoO/ShoppingList/blob/master/img/01.PNG) ![image](https://github.com/LucyMiaoO/ShoppingList/blob/master/img/02.PNG)
+![image](https://github.com/LucyMiaoO/ShoppingList/blob/master/img/02.jpg)
 
 In item list view, the users can see all the item they need to buy in the supermarket and if they don’t want buy something in the list, they can swipe left to delete it. If they have put something from the list in their trolley, they can tick the item and the item will disappear in the current shopping list and show in history list.
 
